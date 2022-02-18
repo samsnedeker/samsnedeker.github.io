@@ -17,4 +17,15 @@ list-style-type: none;
 
 .container {
     text-align: center;
+    background-size: cover;
+    position: relative;
+
   }
+
+img {
+    border-radius: 50%;
+}
+
+#profile-image {
+    max-width: 15vw;
+}
