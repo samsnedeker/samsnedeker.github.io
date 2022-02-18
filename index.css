@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    padding: 10;
+    padding: 70px 0;
 }
 
 * {
@@ -9,4 +9,12 @@ html, body {
 
 ul {
     list-style-type: none;
+  }
+
+li {
+list-style-type: none;
+}
+
+.container {
+    text-align: center;
   }

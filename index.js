@@ -1,4 +1,4 @@
-function socialMediaLink(url, text) {
+function createLink(url, text) {
     return (
         <a href={url} className={text}>
             {text}
@@ -7,13 +7,19 @@ function socialMediaLink(url, text) {
 }
 function MainContent() {
     return (
-        <div className="main content">
+        <div className="container">
             <h1>Samantha Snedeker</h1>
-            <body className="bio">I like to write. I like to code. I love reading and I love learning.</body> 
-            <ul>
-                <li>{socialMediaLink("https://www.linkedin.com/in/samanthasnedeker/","LinkedIn")}</li>
-                <li>{socialMediaLink("https://twitter.com/snedsas","Twitter")}</li>
-            </ul>
+            <p className="bio">I like reading, writing, and coding.</p> 
+        </div>
+    )
+}
+
+function Socials() {
+    return (
+        <div className="container">
+            <li>{createLink("https://www.linkedin.com/in/samanthasnedeker/","LinkedIn")}</li>
+            <li>{createLink("https://twitter.com/snedsas","Twitter")}</li>
+            <li>{createLink("https://github.com/samsnedeker","GitHub")}</li>
         </div>
     )
 }
@@ -21,7 +27,7 @@ function MainContent() {
 ReactDOM.render(
     <div>
         <MainContent></MainContent>
-        <createLink></createLink>
+        <Socials></Socials>
     </div>,
     document.getElementById("root")
 )
