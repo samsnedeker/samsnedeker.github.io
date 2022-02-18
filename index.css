@@ -6,3 +6,7 @@ html, body {
 * {
     font-family: 'Josefin Sans',  sans-serif;
   }
+
+ul {
+    list-style-type: none;
+  }
