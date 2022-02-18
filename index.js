@@ -13,17 +13,6 @@ function MainContent() {
 
     )
 }
-
-function createLink() {
-    var a = document.createElement('a');
-    a.setAttribute('href', 'https://www.linkedin.com/in/samanthasnedeker/');
-    a.innerHTML = 'LinkedIn';
-    return (
-        <div>
-            <body>hi</body>
-        </div>
-    )
-}
  
 ReactDOM.render(
     <div>

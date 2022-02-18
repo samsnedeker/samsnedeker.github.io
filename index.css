@@ -2,3 +2,7 @@ html, body {
     margin: 0;
     padding: 10;
 }
+
+* {
+    font-family: 'Josefin Sans',  sans-serif;
+  }
